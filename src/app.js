@@ -13,7 +13,7 @@ app.use(
   cors({
     origin: [
       "http://localhost:5173",
-      "https://expense-tracker-frontend-lac.vercel.app/",
+      "https://expense-tracker-frontend-lac.vercel.app",
     ],
     credentials: true,
   })
